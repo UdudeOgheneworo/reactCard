@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+#root {
+  background-color: #23252c;
+  display: flex;
+  height: -webkit-max-content;
+  height: max-content;
+  justify-content: center;
+  padding: 2.6rem 0;
+  width: 100%;
+}
+.container {
+  background: #1a1b21;
+  border-radius: 0 0 10px 10px;
+  width: 317px;
+}
+header > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+header > div h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 21px;
+}
+.work {
+  color: #f3bf99;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+.weblink,
+.work {
+  font-weight: 400;
+  text-align: center;
+}
+.weblink {
+  color: #f5f5f5;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 5px;
+}
+.buttons {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+.buttons,
+.buttons button {
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  align-items: center;
+  border-radius: 6px;
+  flex-direction: row;
+  gap: 8px;
+  height: 34px;
+  margin: 0 3px;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+}
+.buttons button img {
+  height: 16px;
+  width: 16px;
+}
+.buttons button p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.emailButton {
+  background: #fff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+.emailButton,
+.linkendinButton {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.linkendinButton {
+  background: #5093e2;
+  border: 1px solid #387ece;
+  color: #fff;
+}
+main {
+  margin: 24px 36px;
+}
+main section h2 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+main section p {
+  color: #dcdcdc;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+footer {
+  align-items: center;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  padding: 20px 72px;
+  width: 317px;
+}
+footer img {
+  height: 25px;
+  width: 25px;
+}
+/*# sourceMappingURL=main.8fc64d19.css.map*/
